@@ -1,16 +1,16 @@
 {
   "_resourceType": "actor",
-  "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
+  "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
   "_index": 6,
-  "symbol": "actor_6",
+  "symbol": "actor_4",
   "prefabId": "",
   "name": "",
   "coordinateType": "tiles",
-  "x": 21,
-  "y": 16,
+  "x": 7,
+  "y": 5,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -22,30 +22,19 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "b1c3d75d-d579-47af-8f3e-4cd96178fbb0",
+      "id": "9769786a-b499-4657-917e-05c7e96cf2f4",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Check out this\nsweet duck!"
+        "text": "Meow!"
       }
     },
     {
-      "id": "0830a973-dd64-44ad-ad07-a677a31a27aa",
+      "id": "c585ca68-8cb8-4a26-bcff-072845e80702",
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "1",
+        "variable": "0",
         "value": {
           "type": "true"
-        }
-      }
-    },
-    {
-      "id": "8ffac2a0-a735-40f1-b51e-dd270cc09ba9",
-      "command": "EVENT_ACTOR_SET_DIRECTION",
-      "args": {
-        "actorId": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
-        "direction": {
-          "type": "direction",
-          "value": "down"
         }
       }
     }

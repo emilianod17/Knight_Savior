@@ -12,21 +12,66 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "f985ad64-ad48-4792-817b-2d57ae6956ff",
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
-        "x": {
-          "type": "number",
-          "value": 10
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "0"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 9
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
-      }
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You must find the\ncat to enter the\nroom."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "72d1493c-ddbf-47e3-b4ab-f3b40742aaaa"
+          }
+        ],
+        "false": [
+          {
+            "id": "f985ad64-ad48-4792-817b-2d57ae6956ff",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            }
+          }
+        ]
+      },
+      "id": "20810cbd-45cb-4dbb-8555-5d5b01ca1866"
     }
   ],
   "leaveScript": []

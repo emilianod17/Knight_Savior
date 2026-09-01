@@ -1,18 +1,18 @@
 {
   "_resourceType": "actor",
-  "id": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
+  "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
   "_index": 5,
-  "symbol": "actor_5",
+  "symbol": "actor_6",
   "prefabId": "",
   "name": "",
   "coordinateType": "tiles",
   "x": 21,
-  "y": 24,
+  "y": 16,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
   "paletteId": "",
-  "direction": "up",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "isPinned": false,
@@ -22,55 +22,31 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "81f7693e-8544-4bb2-bf47-b8963fe90982",
-      "command": "EVENT_IF",
+      "id": "b1c3d75d-d579-47af-8f3e-4cd96178fbb0",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Check out this\nsweet duck!"
+      }
+    },
+    {
+      "id": "0830a973-dd64-44ad-ad07-a677a31a27aa",
+      "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "1",
-        "condition": {
-          "type": "variable",
-          "value": "1"
+        "value": {
+          "type": "true"
         }
-      },
-      "children": {
-        "true": [
-          {
-            "id": "a991435c-89ad-4303-b6f0-a18054cc0ea7",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "I guess it was a\nmisunderstanding."
-            }
-          },
-          {
-            "id": "be420a1a-743e-4afc-a997-daf721708b34",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "8",
-              "value": {
-                "type": "true"
-              }
-            }
-          }
-        ],
-        "false": [
-          {
-            "id": "1063f8a8-90b7-4126-b6e4-1daf7c359c87",
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": "What is that guy\nlooking at?"
-            }
-          },
-          {
-            "id": "7a86534c-dd9f-4005-b2e7-c880ea3f9014",
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
-              "direction": {
-                "type": "direction",
-                "value": "up"
-              }
-            }
-          }
-        ]
+      }
+    },
+    {
+      "id": "8ffac2a0-a735-40f1-b51e-dd270cc09ba9",
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
       }
     }
   ],

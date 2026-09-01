@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "Seen Cat",
-      "symbol": "var_seen_cat"
+      "name": "foundCat",
+      "symbol": "var_foundcat"
     },
     {
       "id": "1",
