@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8a9d6f7c-b3d3-4509-b2ca-7232d1c9c2da",
+  "_index": 8,
+  "name": "Scene 9",
+  "backgroundId": "c9d4cb88-43f9-44c3-a0db-e13241c63a42",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 81,
+  "y": 65,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
