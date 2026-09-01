@@ -1,29 +1,67 @@
 {
   "_resourceType": "actor",
-  "id": "e0400f72-531a-47d7-98b4-4f64c20914b6",
+  "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
+  "_index": 5,
+  "symbol": "actor_4",
+  "prefabId": "",
   "name": "",
+  "coordinateType": "tiles",
+  "x": 7,
+  "y": 5,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0fd137e4-9d0d-48e4-912f-5a1caeeb0c66",
-  "prefabId": "",
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
-  "script": [],
+  "script": [
+    {
+      "id": "9769786a-b499-4657-917e-05c7e96cf2f4",
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "Meow!"
+      }
+    },
+    {
+      "id": "c585ca68-8cb8-4a26-bcff-072845e80702",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      }
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "13a4d972-1211-4a36-8af4-c58c549a418f"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "80c474c9-2861-485b-a005-f08b6f729769"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "coordinateType": "tiles",
-  "x": 13,
-  "y": 9,
-  "_index": 5
+  "hit3Script": []
 }

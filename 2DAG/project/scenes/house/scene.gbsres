@@ -22,6 +22,29 @@
         "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
       },
       "id": "e65f2dfe-ecb7-4497-8e0d-6f54a107c004"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "076a0612-024a-426a-85fc-3e1054b9f74e"
+            },
+            "id": "30eb53c7-a718-445b-a990-12716d995f65"
+          }
+        ],
+        "false": []
+      },
+      "id": "71ac6680-845d-4447-a809-6be047d3e881"
     }
   ],
   "playerHit1Script": [],

@@ -65,6 +65,11 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []
