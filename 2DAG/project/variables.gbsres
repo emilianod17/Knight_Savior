@@ -23,18 +23,18 @@
     },
     {
       "id": "4",
-      "name": "Quest1",
-      "symbol": "var_quest1"
+      "name": "readSign",
+      "symbol": "var_readsign"
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "dollars",
+      "symbol": "var_dollars"
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": "var_quest3"
+      "name": "readSign2",
+      "symbol": "var_readsign2"
     },
     {
       "id": "7",
@@ -70,6 +70,16 @@
       "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "7ee7bc2b-602b-4747-a640-289f01b84a84__L0",
+      "name": "Local 1",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "e1240fdd-f47c-4cee-a700-a1db7e3a947d__L0",
+      "name": "Local 1",
+      "symbol": "var_local_2"
     }
   ],
   "constants": []
