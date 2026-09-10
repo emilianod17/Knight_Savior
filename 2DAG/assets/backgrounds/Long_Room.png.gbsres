@@ -3,10 +3,10 @@
   "id": "f30487c8-32b6-4443-99bd-d52a73a2065e",
   "name": "Long_Room",
   "symbol": "bg_long_room",
-  "tileColors": "",
+  "tileColors": "00426+",
   "filename": "Long_Room.png",
-  "width": 64,
+  "width": 59,
   "height": 18,
-  "imageWidth": 512,
+  "imageWidth": 472,
   "imageHeight": 144
 }

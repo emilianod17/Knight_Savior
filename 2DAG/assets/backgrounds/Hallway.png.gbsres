@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6e3c2076-0d21-4b49-a47c-7c0ab517579f",
+  "name": "Hallway",
+  "symbol": "bg_hallway",
+  "tileColors": "",
+  "filename": "Hallway.png",
+  "width": 59,
+  "height": 18,
+  "imageWidth": 472,
+  "imageHeight": 144
+}
