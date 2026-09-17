@@ -3,10 +3,10 @@
   "id": "c9d4cb88-43f9-44c3-a0db-e13241c63a42",
   "name": "Room",
   "symbol": "bg_room",
-  "tileColors": "",
+  "tileColors": "00426+",
   "filename": "Room.png",
-  "width": 20,
+  "width": 59,
   "height": 18,
-  "imageWidth": 160,
+  "imageWidth": 472,
   "imageHeight": 144
 }

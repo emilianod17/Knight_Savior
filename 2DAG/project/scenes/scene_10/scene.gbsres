@@ -3,7 +3,7 @@
   "id": "d0745101-fb21-483d-8955-7f4fbcbd1ce7",
   "_index": 5,
   "name": "Scene 10",
-  "backgroundId": "f30487c8-32b6-4443-99bd-d52a73a2065e",
+  "backgroundId": "c9d4cb88-43f9-44c3-a0db-e13241c63a42",
   "tilesetId": "",
   "width": 59,
   "height": 18,
@@ -19,5 +19,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dc34990c-5149-4821-8dcf-dd5ddfc116b4"
 }
