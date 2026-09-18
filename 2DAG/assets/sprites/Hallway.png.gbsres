@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "6d752cb6-b6a1-4001-9574-720383c5debf",
+  "name": "Hallway",
+  "symbol": "sprite_hallway",
+  "states": [
+    {
+      "id": "0090a245-42ca-4b24-8611-d9d1ceec1cbd",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "a8ffa20e-f1ed-4179-a2f2-3b9e6e3a0a3c",
+          "frames": [
+            {
+              "id": "4058be71-7446-46f8-9e3b-e0dbd9b8cfda",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9b725952-91ad-47ef-881c-b7c7a4154e32",
+          "frames": [
+            {
+              "id": "6ce99a62-7cf2-412a-b8d0-a48c4e38abe2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e96750c4-21e3-49d0-812e-ea6b8fa632fb",
+          "frames": [
+            {
+              "id": "fddf991a-d783-4338-afe1-e91623f52500",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "562f11f2-39f6-4485-9e8f-0b4a1aa590ed",
+          "frames": [
+            {
+              "id": "df0e1431-f812-4ad8-89ac-0aca324554e7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0dc17fcc-b275-4a3f-ac0a-7745770e612a",
+          "frames": [
+            {
+              "id": "be143305-6c3e-44e2-ad6f-3b099ca74a78",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "086ce2ed-0576-4509-8535-4b0f13aa3884",
+          "frames": [
+            {
+              "id": "b0cb384c-0491-4a4f-b862-09d7f3eeed09",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "13f40fc5-ea6d-4c9d-8430-6f43d0e231ce",
+          "frames": [
+            {
+              "id": "972dfb93-6daf-44b7-b29b-ab56d71672e9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9a2d670c-da54-4c8b-b5d4-c3a03d2d536b",
+          "frames": [
+            {
+              "id": "e34af8ec-574b-41d9-b28c-2beca0635176",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Hallway.png",
+  "width": 472,
+  "height": 144,
+  "checksum": "ba95b4e0bd1357447b69cc2feee2fb6cbd0807fd"
+}
