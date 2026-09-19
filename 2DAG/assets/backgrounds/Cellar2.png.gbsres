@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c3eed4bb-be2c-456d-8c00-3dce46360cf3",
+  "name": "Cellar2",
+  "symbol": "bg_cellar2",
+  "tileColors": "",
+  "filename": "Cellar2.png",
+  "width": 26,
+  "height": 40,
+  "imageWidth": 208,
+  "imageHeight": 320
+}

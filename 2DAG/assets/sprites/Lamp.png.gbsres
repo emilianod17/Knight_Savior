@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "1e678ceb-0480-41fe-b329-1165aa7f4dda",
+  "name": "Lamp",
+  "symbol": "sprite_lamp",
+  "states": [
+    {
+      "id": "0e0db741-fa7c-4bc6-9e58-28e82e087a1b",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "b861e61d-d696-44ea-9ab5-6ef5d9d7ed55",
+          "frames": [
+            {
+              "id": "10d50e31-b65d-47d1-b379-df2363a56a31",
+              "tiles": [
+                {
+                  "id": "ffbb2be3-5342-41a3-9902-cb021759489f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "44d730bd-12cd-47d0-8b02-4403ffcb0593",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d39b03cc-93ff-4080-891e-c80c3cde7228",
+          "frames": [
+            {
+              "id": "faadf92e-513a-44a1-965d-765a1542d9c3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c2e48e31-d807-4bf6-b567-a729545d1e3d",
+          "frames": [
+            {
+              "id": "fffb4cf5-a475-4c97-954e-717d7d12727d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c5e1d14e-a806-4bbd-98bf-6af10dcfe38b",
+          "frames": [
+            {
+              "id": "39c00dce-7bff-412e-aab5-d3660e77737f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e48e2b77-128d-4921-9738-266779c0b3f1",
+          "frames": [
+            {
+              "id": "86338087-8858-4791-87a2-f4a846803abb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2373886e-8171-412e-9ba3-789f62ec2ea2",
+          "frames": [
+            {
+              "id": "b3f31ffd-670a-4ec5-8779-492e47dd2147",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "634c7756-2326-4a28-ad33-a1eb4b39a487",
+          "frames": [
+            {
+              "id": "4e08e39e-6bc0-4028-88c7-a1a499eb1528",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f0b6d6ec-6b1a-44de-87e9-c1d193aea9d2",
+          "frames": [
+            {
+              "id": "8c1aa63b-f48c-4380-bb4f-bd9702dafda7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Lamp.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "07fb1e9cc2649a3c3f2700f07c7c6d65397c509b"
+}
