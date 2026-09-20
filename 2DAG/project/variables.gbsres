@@ -67,6 +67,11 @@
       "symbol": "var_pushediceblock"
     },
     {
+      "id": "13",
+      "name": "spokenToKing",
+      "symbol": "var_spokentoking"
+    },
+    {
       "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -80,11 +85,6 @@
       "id": "e1240fdd-f47c-4cee-a700-a1db7e3a947d__L0",
       "name": "Local 1",
       "symbol": "var_local_2"
-    },
-    {
-      "id": "13",
-      "name": "spokenToKing",
-      "symbol": "var_spokentoking"
     }
   ],
   "constants": []
