@@ -3,10 +3,10 @@
   "id": "a4e5992e-ced0-4304-9d2d-b5b244a8a4d5",
   "name": "Field",
   "symbol": "bg_field",
-  "tileColors": "",
+  "tileColors": "002a8+",
   "filename": "Field.png",
-  "width": 32,
-  "height": 18,
-  "imageWidth": 256,
-  "imageHeight": 144
+  "width": 34,
+  "height": 20,
+  "imageWidth": 272,
+  "imageHeight": 160
 }

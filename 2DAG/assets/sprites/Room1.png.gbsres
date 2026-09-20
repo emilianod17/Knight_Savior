@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "cd8a59da-b3d2-4eb6-877a-935406fd127b",
+  "name": "Room1",
+  "symbol": "sprite_room1",
+  "states": [
+    {
+      "id": "da792936-1114-46d9-8cd5-478b8b023ab6",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "8c8d601d-209a-47ea-8d86-b383eeaad0de",
+          "frames": [
+            {
+              "id": "38ae756b-f959-45a0-80c7-55a96552fdc4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dbdffb78-7396-4782-88dd-18cc7c02c009",
+          "frames": [
+            {
+              "id": "8cd7f1f4-db49-42f3-9630-f5c73562c98d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32766771-2d45-4f9e-a367-467a55630d91",
+          "frames": [
+            {
+              "id": "4e501547-0559-4eb5-80e8-4e11ba529a1a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8600c75d-3602-46eb-8718-039243d3d00f",
+          "frames": [
+            {
+              "id": "684f88df-4eb2-439b-bafe-47aa41d0e98e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c802bd0f-513e-46a8-8f39-6bb887cbe7b3",
+          "frames": [
+            {
+              "id": "26a24c41-e51e-41e0-9ffb-414b819f2c6b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6be97a4d-b6a7-466a-ad57-a93bb9fcf434",
+          "frames": [
+            {
+              "id": "d4a1c121-52e8-45b1-8ba4-faaad8254689",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "70592dcf-6a85-4446-9e47-dcba03a91d59",
+          "frames": [
+            {
+              "id": "72037184-ebd7-4723-838c-5b7219c0e550",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "30ee629c-3d97-49e5-86fa-ad6bdb826d45",
+          "frames": [
+            {
+              "id": "26047411-9334-4e4d-8bbf-b24a0d76c6f7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Room1.png",
+  "width": 472,
+  "height": 144,
+  "checksum": "4fccc407627458e874a9ad64a684c6bc7b6f7843"
+}

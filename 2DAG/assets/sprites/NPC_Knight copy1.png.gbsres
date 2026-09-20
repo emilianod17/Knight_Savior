@@ -1,0 +1,183 @@
+{
+  "_resourceType": "sprite",
+  "id": "6e1349b8-3649-4356-b79a-a1f3219a2db7",
+  "name": "NPC_Knight copy1",
+  "symbol": "sprite_npc_knight_copy1",
+  "states": [
+    {
+      "id": "792b28a7-7ba8-4f7d-862d-cddd0f84d275",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "1fdc6c71-1eaa-4bb0-b194-a85cfa04ef87",
+          "frames": [
+            {
+              "id": "673d54bd-ce7e-4dfe-b2e9-78c994f887bb",
+              "tiles": [
+                {
+                  "id": "12589385-4e08-414f-aaf8-96cfe65eccd7",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "d179ea05-9f9c-48db-951e-026a47cdeb2e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "9f13b17d-dd6c-4905-85d4-8f5871153480",
+          "frames": [
+            {
+              "id": "c15bb10a-4bd3-42ee-9f06-fe4909bfc664",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5874f47d-9e0d-470f-85c6-e857c0284b08",
+          "frames": [
+            {
+              "id": "80a3e9ea-d075-42e0-b184-26d3a4cac5e6",
+              "tiles": [
+                {
+                  "id": "33bb2889-ea34-4266-a5ed-050e763d612a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "365c72df-8135-4ee9-a0eb-6af94f7aeeac",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c0613d4b-294b-4467-b76b-98525687ed0f",
+          "frames": [
+            {
+              "id": "7a83b3f4-521b-49fb-8611-cfcf990752ab",
+              "tiles": [
+                {
+                  "id": "c3698e7b-c7ad-427b-8da6-33a05b5532ca",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "3b30063f-cdf0-48a3-b7d8-b5bef4d6e89c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "48148fc6-7496-4b42-bb2d-7adfab43825a",
+          "frames": [
+            {
+              "id": "c76faf58-4f66-40dc-a6bf-642cd73f5b99",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "afe42552-6275-4f7c-9ea2-f348851e6919",
+          "frames": [
+            {
+              "id": "2e54cc0a-cc96-4a79-a14f-79438aa0f82d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "44e0744b-f4c5-4f7e-87e8-22295311755c",
+          "frames": [
+            {
+              "id": "571166fd-0642-407e-adc8-b0493e327f6d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1951f64c-b9b4-4c3a-9d02-bb886f2dbbf2",
+          "frames": [
+            {
+              "id": "1670a000-b5e1-40ca-8730-b7bd900f14f9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "NPC_Knight copy1.png",
+  "width": 48,
+  "height": 16,
+  "checksum": "aa8628ed7e4fc922b0a6034b974474f49a840368"
+}

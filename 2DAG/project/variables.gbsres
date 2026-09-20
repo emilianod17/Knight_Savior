@@ -80,6 +80,11 @@
       "id": "e1240fdd-f47c-4cee-a700-a1db7e3a947d__L0",
       "name": "Local 1",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "13",
+      "name": "spokenToKing",
+      "symbol": "var_spokentoking"
     }
   ],
   "constants": []

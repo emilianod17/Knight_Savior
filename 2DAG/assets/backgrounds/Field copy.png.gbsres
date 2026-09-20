@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d85075cb-fed5-4280-850f-f3d0fed691f0",
+  "name": "Field copy",
+  "symbol": "bg_field_copy",
+  "tileColors": "",
+  "filename": "Field copy.png",
+  "width": 45,
+  "height": 20,
+  "imageWidth": 360,
+  "imageHeight": 160
+}
