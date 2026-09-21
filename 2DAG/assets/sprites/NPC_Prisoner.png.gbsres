@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "e8f92118-b93f-4cfa-ad26-ab0cf8ecc42b",
-  "name": "NPC_King",
-  "symbol": "sprite_npc_king",
+  "id": "bfca6b53-4af0-4d81-8e81-4a7f031d29f7",
+  "name": "NPC_Prisoner",
+  "symbol": "sprite_npc_prisoner",
   "states": [
     {
-      "id": "993f7585-3ea6-4e71-a620-2857c5814850",
+      "id": "28feedf8-76b3-4f2d-98e3-888ed0f630e3",
       "name": "",
       "animationType": "multi",
       "flipLeft": true,
       "animations": [
         {
-          "id": "95823990-577c-4850-9db8-f39fb614222b",
+          "id": "8f36104c-d237-4919-8e6d-e003fe421b37",
           "frames": [
             {
-              "id": "318ae122-e731-494d-a03a-7c9801402b0a",
+              "id": "63534cb9-41f5-4b9e-96b2-06077d126dbd",
               "tiles": [
                 {
-                  "id": "fc45f695-f59b-4258-9f26-5eb5de3c2b75",
+                  "id": "bc835d18-4c2e-4776-a4f4-94df035b9327",
                   "x": 0,
                   "y": 0,
                   "sliceX": 32,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "55d36ce2-d88d-4352-9572-669ab4a8a7b6",
+                  "id": "5793714b-9edd-42f8-8f15-d9d035ffaa6e",
                   "x": 8,
                   "y": 0,
                   "sliceX": 40,
@@ -47,22 +47,22 @@
           ]
         },
         {
-          "id": "02bf0024-0a15-43c8-949a-748322f05406",
+          "id": "d6191476-4cc5-4696-b673-f4014bd00c8d",
           "frames": [
             {
-              "id": "0d2b3c1d-f62d-418a-a9f3-e6ef73b213bd",
+              "id": "3c61325c-2362-4a9e-bf67-fe6f3f5f45bf",
               "tiles": []
             }
           ]
         },
         {
-          "id": "134870c3-7bb4-4f26-9c82-3a1b12907117",
+          "id": "2e19f750-0fc0-47c4-bf09-19f88d27e550",
           "frames": [
             {
-              "id": "bb491e09-854e-400a-8e94-4f0cfc7fc222",
+              "id": "0cf7a8bc-16e0-4be1-acbc-7b0dec9a2212",
               "tiles": [
                 {
-                  "id": "1009524b-142b-4529-a98b-8b50076ce07d",
+                  "id": "80bcf115-5e08-4af2-91fc-221d16cad4d4",
                   "x": 0,
                   "y": 0,
                   "sliceX": 16,
@@ -75,7 +75,7 @@
                   "priority": false
                 },
                 {
-                  "id": "4d008013-70fb-4097-888a-000e4e0b938d",
+                  "id": "e877ae9b-f7ff-4795-974e-d27be5a60e81",
                   "x": 8,
                   "y": 0,
                   "sliceX": 24,
@@ -92,13 +92,13 @@
           ]
         },
         {
-          "id": "ae815322-8b24-4f2f-ada0-7ce40463b3c2",
+          "id": "420596a1-5b44-444f-8104-e7f77304d654",
           "frames": [
             {
-              "id": "15eff834-9855-4ad6-9148-b632dc0fab29",
+              "id": "d5c27937-87ea-46f2-8398-e3cddb8e6bbc",
               "tiles": [
                 {
-                  "id": "1f6469fc-1d83-4d5c-be26-f29478b3662e",
+                  "id": "b25134d2-fbd8-423d-bc6f-9298953da000",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -111,7 +111,7 @@
                   "priority": false
                 },
                 {
-                  "id": "b7d80321-bf74-4428-b860-e1009c216a67",
+                  "id": "33819fd6-8dc6-4d5d-b33a-70194f812d08",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -128,37 +128,37 @@
           ]
         },
         {
-          "id": "1542f501-8cf3-40ff-98ee-3e4a912c6c75",
+          "id": "1c31f16a-c5d4-4aeb-8b07-7e433b2c9920",
           "frames": [
             {
-              "id": "66fd9a4a-7b52-42b6-9ff7-51ce52e9dbd3",
+              "id": "0114ae78-d6ac-433c-b7dd-739b57b428b3",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a49bee1e-a564-4cca-94a0-56cdb0da8e65",
+          "id": "cf472d33-e96f-40f9-b8c4-9af0fc14719a",
           "frames": [
             {
-              "id": "2b3ceab6-027f-46f7-90c8-3488ce91731b",
+              "id": "7d520fbd-8b85-42cd-8bf7-e4a3d61f2ccd",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6d9f1bae-0a3d-4bc4-a2bc-70eaad983efd",
+          "id": "ba4074e7-c22d-442e-9581-b16a929893c0",
           "frames": [
             {
-              "id": "66358ea9-893d-4039-9550-5a28c20336ec",
+              "id": "65deac2f-1db3-4900-8b24-cc1f106d4db2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ce8a4837-96ec-4c26-b913-ae324003806b",
+          "id": "f769192a-8ba1-4a44-9637-e57d640471b9",
           "frames": [
             {
-              "id": "461a2cb1-2fe4-42c9-8b1f-51c15ec8f4f2",
+              "id": "9431a9e2-c158-4d14-a86b-468170ea800e",
               "tiles": []
             }
           ]
@@ -176,8 +176,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "NPC_King.png",
+  "filename": "NPC_Prisoner.png",
   "width": 48,
   "height": 16,
-  "checksum": "200870fa8b4a38ace5cfbd73c0fb9089f88fadbd"
+  "checksum": "56baeac9f08e5513181603e7b6f9da313eccf868"
 }

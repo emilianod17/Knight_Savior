@@ -7,77 +7,104 @@
     {
       "id": "4e0b200a-5803-414e-8666-c9c50b656516",
       "name": "",
-      "animationType": "multi_movement",
-      "flipLeft": true,
+      "animationType": "fixed",
+      "flipLeft": false,
       "animations": [
         {
-          "id": "3408c605-cf77-4c93-a966-d2f2385e2ffe",
+          "id": "9e92a72f-42ba-4f26-8110-1cc1693d426f",
           "frames": [
             {
-              "id": "8e7eefc8-476b-465f-9e46-6c167e626021",
+              "id": "34815e89-2576-4fd9-8580-38bb76e8d8b7",
+              "tiles": [
+                {
+                  "id": "04e1dd67-c929-41ca-a061-d6e284bba218",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "90f8f31a-47f7-4810-91ec-cba83b3101d2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "42c5d777-09be-4a1c-9157-d51a11beac50",
+          "frames": [
+            {
+              "id": "0913dd7d-7c5d-4933-aefb-2fa43a70f08d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "e5fb2eca-e2c4-4326-998b-fbb1a5cfd772",
+          "id": "f0dd9dab-43a2-4308-961b-0dfc20b2dca5",
           "frames": [
             {
-              "id": "641a87e5-3723-4207-9956-ad3881a5cfca",
+              "id": "1535c538-748d-4f6b-8024-7e4b58760cae",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4eb2538e-ccaa-455b-867c-f8a9c8586746",
+          "id": "54ef8240-cb92-4b16-9134-e362ca3cfa95",
           "frames": [
             {
-              "id": "b84cfa97-0f85-43b9-b251-99ec8f6c27f5",
+              "id": "86546d19-d607-4c1a-bdd5-d7e4097243e4",
               "tiles": []
             }
           ]
         },
         {
-          "id": "f298a01c-728a-4fd5-b9d7-fa06ca56cefb",
+          "id": "95cc0326-ca3e-4012-a4d3-b612a990a889",
           "frames": [
             {
-              "id": "31c1fc34-ddb3-4e20-87b0-240353934e3a",
+              "id": "a9541777-7e85-4613-ba1a-79be0dbaccac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a79d7e34-23d9-4af6-a1f6-23c62fb25953",
+          "id": "a87f0aa9-43e2-4a6e-b1b5-a6676ad7c694",
           "frames": [
             {
-              "id": "e01cecf9-43e8-412a-9d9f-9f749a4feff7",
+              "id": "71dbd0e7-ea31-44f0-8845-e28bc1f2d176",
               "tiles": []
             }
           ]
         },
         {
-          "id": "59cacf0e-fcbb-4db3-8ccc-8f9ff3c6198e",
+          "id": "83452a25-ea68-495f-b6fa-bc51d46c8710",
           "frames": [
             {
-              "id": "070a7daa-f6fa-44c8-9063-11525989d156",
+              "id": "781d2a98-66b4-4e4a-89a6-37d7404c9a14",
               "tiles": []
             }
           ]
         },
         {
-          "id": "df68595d-d667-4a72-a539-b0dee9251587",
+          "id": "3d1421ca-d8ef-4c97-bfd9-f1072a8e7061",
           "frames": [
             {
-              "id": "ffaa4e1b-a8ec-41b9-8e27-e1e907510ccb",
-              "tiles": []
-            }
-          ]
-        },
-        {
-          "id": "e9a68c56-0011-4bee-8e3a-69928be6ccc0",
-          "frames": [
-            {
-              "id": "c80bef1a-52b2-4a6d-8eea-752a6c14f511",
+              "id": "d64b710e-8297-480f-a4c9-b942c22b6779",
               "tiles": []
             }
           ]
@@ -85,11 +112,11 @@
       ]
     }
   ],
-  "numTiles": 0,
+  "numTiles": 2,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
-  "canvasWidth": 32,
-  "canvasHeight": 32,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
   "boundsX": 0,
   "boundsY": -8,
   "boundsWidth": 16,
@@ -97,6 +124,6 @@
   "animSpeed": 15,
   "filename": "Cell_Door.png",
   "width": 16,
-  "height": 8,
-  "checksum": "a80f5f631ea8be061bcd292c2e8fbe27d4c0ec19"
+  "height": 16,
+  "checksum": "e81dc1811e671cba7497fc7f239146e1167bd567"
 }

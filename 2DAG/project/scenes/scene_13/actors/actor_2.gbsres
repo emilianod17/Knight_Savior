@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "f9ea501e-304b-4015-b926-faf13c275df4",
+  "id": "e34baddd-1be0-467d-882d-5207b48ca807",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "77ed5951-4712-465c-93bb-cfd2d42975fd",
+  "spriteSheetId": "ad5be203-235e-414b-b9c7-a87222defe5a",
   "prefabId": "",
-  "direction": "left",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,13 +15,15 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_37",
+  "symbol": "actor_47",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Get away from me.\nI don't want to\ntalk."
+          "Oh Apollo, thank\nyou for saving me!",
+          "I was beginning to\nthink I'd be stuck\nhere forever.",
+          "Let us travel back\nto the castle."
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +42,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "28a0c2bf-3a35-430f-9718-a7981dbf02a1"
+      "id": "cfbfbdda-149d-46ea-9b3e-e84d011802d2"
     }
   ],
   "startScript": [],
@@ -49,7 +51,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 21,
-  "y": 18,
+  "x": 9,
+  "y": 4,
   "_index": 1
 }

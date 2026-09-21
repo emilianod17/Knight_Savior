@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "f9ea501e-304b-4015-b926-faf13c275df4",
+  "id": "7969f88a-9ae1-4e93-b77d-71404f32d7ea",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "f8a17ad3-27f6-4e93-962f-32e977e87366",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,15 +15,63 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_37",
-  "script": [],
+  "symbol": "actor_39",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "2f2806af-f8a6-44fd-9d03-09a44d0059f7",
+        "__collapse": true
+      },
+      "id": "3b3224b2-daa8-43fb-ab1c-b42fda796156"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sometimes, the\nguards head behind\nthat pillar...",
+          "And I hear a\nscrapping sound\nshortly after...",
+          "Might be worth\nchecking out."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "7db58666-5a23-4467-a7d0-b9d04d52184d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "14",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "061a435e-9f60-439e-9d13-68959e3eba97"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 19,
-  "y": 21,
+  "x": 21,
+  "y": 36,
   "_index": 2
 }

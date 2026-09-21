@@ -4,9 +4,9 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "bfca6b53-4af0-4d81-8e81-4a7f031d29f7",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -16,14 +16,52 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_35",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hey, are you here\nfor the Princess?",
+          "They brought her\nthrough here...",
+          "They might've\ntaken her to the\nholding room."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ce73e4a0-ff1a-44ae-b99c-f466bf2e1af3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "14",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "402882d8-1d9f-4899-915c-2098fab303bd"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 19,
-  "y": 7,
+  "x": 21,
+  "y": 6,
   "_index": 0
 }

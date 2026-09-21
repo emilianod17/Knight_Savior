@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "e8f92118-b93f-4cfa-ad26-ab0cf8ecc42b",
-  "name": "NPC_King",
-  "symbol": "sprite_npc_king",
+  "id": "ad5be203-235e-414b-b9c7-a87222defe5a",
+  "name": "NPC_Princess",
+  "symbol": "sprite_npc_princess",
   "states": [
     {
-      "id": "993f7585-3ea6-4e71-a620-2857c5814850",
+      "id": "4ce8ba58-c03b-4182-8053-017c861d8728",
       "name": "",
       "animationType": "multi",
       "flipLeft": true,
       "animations": [
         {
-          "id": "95823990-577c-4850-9db8-f39fb614222b",
+          "id": "16760cea-d9e4-41f0-ad6a-9f283f863466",
           "frames": [
             {
-              "id": "318ae122-e731-494d-a03a-7c9801402b0a",
+              "id": "e39ec44d-2995-4e2b-89f6-b603cfcd7c10",
               "tiles": [
                 {
-                  "id": "fc45f695-f59b-4258-9f26-5eb5de3c2b75",
+                  "id": "23913e4a-31db-420e-bd60-b2169fd626ae",
                   "x": 0,
                   "y": 0,
                   "sliceX": 32,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "55d36ce2-d88d-4352-9572-669ab4a8a7b6",
+                  "id": "27f90b0c-ad37-4543-aceb-34cbf50c6e63",
                   "x": 8,
                   "y": 0,
                   "sliceX": 40,
@@ -47,22 +47,22 @@
           ]
         },
         {
-          "id": "02bf0024-0a15-43c8-949a-748322f05406",
+          "id": "269dccec-f1ef-4ccf-b7c8-5dfba9a66f6d",
           "frames": [
             {
-              "id": "0d2b3c1d-f62d-418a-a9f3-e6ef73b213bd",
+              "id": "26937a40-81c2-4ba6-b9e4-9b47f86ef8b6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "134870c3-7bb4-4f26-9c82-3a1b12907117",
+          "id": "4ad56963-358a-4e3b-be9c-d00570be2c8e",
           "frames": [
             {
-              "id": "bb491e09-854e-400a-8e94-4f0cfc7fc222",
+              "id": "27c39d40-c860-468d-a0c0-b2ad4c3a27e7",
               "tiles": [
                 {
-                  "id": "1009524b-142b-4529-a98b-8b50076ce07d",
+                  "id": "6f3f05c6-ddfc-45c9-9030-9c7f610eb027",
                   "x": 0,
                   "y": 0,
                   "sliceX": 16,
@@ -75,7 +75,7 @@
                   "priority": false
                 },
                 {
-                  "id": "4d008013-70fb-4097-888a-000e4e0b938d",
+                  "id": "3900a836-6491-4cc8-9893-e99788004b0d",
                   "x": 8,
                   "y": 0,
                   "sliceX": 24,
@@ -92,13 +92,13 @@
           ]
         },
         {
-          "id": "ae815322-8b24-4f2f-ada0-7ce40463b3c2",
+          "id": "13683227-19e8-474e-85e3-bb0e11190a6c",
           "frames": [
             {
-              "id": "15eff834-9855-4ad6-9148-b632dc0fab29",
+              "id": "e5f225da-0a6d-4853-a780-0af150ea0d1a",
               "tiles": [
                 {
-                  "id": "1f6469fc-1d83-4d5c-be26-f29478b3662e",
+                  "id": "69e86575-315b-46d8-9045-0811c1907002",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -111,7 +111,7 @@
                   "priority": false
                 },
                 {
-                  "id": "b7d80321-bf74-4428-b860-e1009c216a67",
+                  "id": "26caf485-4100-4a94-a58f-38faef42172c",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -128,37 +128,37 @@
           ]
         },
         {
-          "id": "1542f501-8cf3-40ff-98ee-3e4a912c6c75",
+          "id": "91baa026-410c-44ff-9722-ee753353e0be",
           "frames": [
             {
-              "id": "66fd9a4a-7b52-42b6-9ff7-51ce52e9dbd3",
+              "id": "d47ebe16-d6ad-4ffa-82ea-774012ca29cb",
               "tiles": []
             }
           ]
         },
         {
-          "id": "a49bee1e-a564-4cca-94a0-56cdb0da8e65",
+          "id": "fd4e318c-cf7d-4dc9-9986-70db7ffa65bf",
           "frames": [
             {
-              "id": "2b3ceab6-027f-46f7-90c8-3488ce91731b",
+              "id": "4819fcd0-8d69-411c-bc60-b02d537d5ee7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6d9f1bae-0a3d-4bc4-a2bc-70eaad983efd",
+          "id": "ad8ed9fb-e609-47fa-bef3-0a2e38809877",
           "frames": [
             {
-              "id": "66358ea9-893d-4039-9550-5a28c20336ec",
+              "id": "3814752c-d7f2-49e3-8444-bac80a1a9f2c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "ce8a4837-96ec-4c26-b913-ae324003806b",
+          "id": "5bb057fc-0f36-4324-b1b3-e0b383a8345b",
           "frames": [
             {
-              "id": "461a2cb1-2fe4-42c9-8b1f-51c15ec8f4f2",
+              "id": "ebc26848-c8c4-40f7-92af-1313e069dbb0",
               "tiles": []
             }
           ]
@@ -176,8 +176,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "NPC_King.png",
+  "filename": "NPC_Princess.png",
   "width": 48,
   "height": 16,
-  "checksum": "200870fa8b4a38ace5cfbd73c0fb9089f88fadbd"
+  "checksum": "b942a13f9a7315b44107117ae542999c171af8d3"
 }

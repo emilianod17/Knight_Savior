@@ -90,6 +90,16 @@
       "id": "1cf7683d-6bb0-44c2-a8be-5c56b6e3df0f__L5",
       "name": "spokenTo",
       "symbol": "var_spokento"
+    },
+    {
+      "id": "b228615c-32ec-49cb-b083-8dcfd990a648__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "14",
+      "name": "spokenToPrisoner",
+      "symbol": "var_spokentoprisoner"
     }
   ],
   "constants": []
