@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "c2b933f0-0d92-4c42-a492-0233e451bc78",
+  "name": "Cell_Door",
+  "symbol": "sprite_cell_door",
+  "states": [
+    {
+      "id": "4e0b200a-5803-414e-8666-c9c50b656516",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3408c605-cf77-4c93-a966-d2f2385e2ffe",
+          "frames": [
+            {
+              "id": "8e7eefc8-476b-465f-9e46-6c167e626021",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e5fb2eca-e2c4-4326-998b-fbb1a5cfd772",
+          "frames": [
+            {
+              "id": "641a87e5-3723-4207-9956-ad3881a5cfca",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4eb2538e-ccaa-455b-867c-f8a9c8586746",
+          "frames": [
+            {
+              "id": "b84cfa97-0f85-43b9-b251-99ec8f6c27f5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f298a01c-728a-4fd5-b9d7-fa06ca56cefb",
+          "frames": [
+            {
+              "id": "31c1fc34-ddb3-4e20-87b0-240353934e3a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a79d7e34-23d9-4af6-a1f6-23c62fb25953",
+          "frames": [
+            {
+              "id": "e01cecf9-43e8-412a-9d9f-9f749a4feff7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "59cacf0e-fcbb-4db3-8ccc-8f9ff3c6198e",
+          "frames": [
+            {
+              "id": "070a7daa-f6fa-44c8-9063-11525989d156",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "df68595d-d667-4a72-a539-b0dee9251587",
+          "frames": [
+            {
+              "id": "ffaa4e1b-a8ec-41b9-8e27-e1e907510ccb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e9a68c56-0011-4bee-8e3a-69928be6ccc0",
+          "frames": [
+            {
+              "id": "c80bef1a-52b2-4a6d-8eea-752a6c14f511",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Cell_Door.png",
+  "width": 16,
+  "height": 8,
+  "checksum": "a80f5f631ea8be061bcd292c2e8fbe27d4c0ec19"
+}

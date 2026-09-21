@@ -1,0 +1,183 @@
+{
+  "_resourceType": "sprite",
+  "id": "e8f92118-b93f-4cfa-ad26-ab0cf8ecc42b",
+  "name": "NPC_King",
+  "symbol": "sprite_npc_king",
+  "states": [
+    {
+      "id": "993f7585-3ea6-4e71-a620-2857c5814850",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "95823990-577c-4850-9db8-f39fb614222b",
+          "frames": [
+            {
+              "id": "318ae122-e731-494d-a03a-7c9801402b0a",
+              "tiles": [
+                {
+                  "id": "fc45f695-f59b-4258-9f26-5eb5de3c2b75",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "55d36ce2-d88d-4352-9572-669ab4a8a7b6",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02bf0024-0a15-43c8-949a-748322f05406",
+          "frames": [
+            {
+              "id": "0d2b3c1d-f62d-418a-a9f3-e6ef73b213bd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "134870c3-7bb4-4f26-9c82-3a1b12907117",
+          "frames": [
+            {
+              "id": "bb491e09-854e-400a-8e94-4f0cfc7fc222",
+              "tiles": [
+                {
+                  "id": "1009524b-142b-4529-a98b-8b50076ce07d",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "4d008013-70fb-4097-888a-000e4e0b938d",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ae815322-8b24-4f2f-ada0-7ce40463b3c2",
+          "frames": [
+            {
+              "id": "15eff834-9855-4ad6-9148-b632dc0fab29",
+              "tiles": [
+                {
+                  "id": "1f6469fc-1d83-4d5c-be26-f29478b3662e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b7d80321-bf74-4428-b860-e1009c216a67",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1542f501-8cf3-40ff-98ee-3e4a912c6c75",
+          "frames": [
+            {
+              "id": "66fd9a4a-7b52-42b6-9ff7-51ce52e9dbd3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a49bee1e-a564-4cca-94a0-56cdb0da8e65",
+          "frames": [
+            {
+              "id": "2b3ceab6-027f-46f7-90c8-3488ce91731b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d9f1bae-0a3d-4bc4-a2bc-70eaad983efd",
+          "frames": [
+            {
+              "id": "66358ea9-893d-4039-9550-5a28c20336ec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ce8a4837-96ec-4c26-b913-ae324003806b",
+          "frames": [
+            {
+              "id": "461a2cb1-2fe4-42c9-8b1f-51c15ec8f4f2",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 6,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "NPC_King.png",
+  "width": 48,
+  "height": 16,
+  "checksum": "6e2df06487d4d6eb9dff07fa24c3b8304251615a"
+}

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "83d1800b-ec23-431e-8ff6-d265b205caa6",
+  "id": "728549ab-edf0-46ed-85ac-138e54e12f57",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
+  "spriteSheetId": "c2b933f0-0d92-4c42-a492-0233e451bc78",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,13 +15,20 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_45",
   "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "b53fb3c3-e454-4666-9d1b-35d1c3580e4e"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "hello"
+          "sd"
         ],
         "__section": "text",
         "avatarId": "",
@@ -40,7 +47,14 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "f94b2f92-5f56-4d9d-9f5e-c71474631845"
+      "id": "72d70c6c-6933-40d7-bf23-0dcd8d4413da"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "eccc5c8c-f735-4af7-8497-da41a6870741"
     }
   ],
   "startScript": [],
@@ -50,6 +64,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 9,
-  "y": 9,
-  "_index": 6
+  "y": 7,
+  "_index": 0
 }

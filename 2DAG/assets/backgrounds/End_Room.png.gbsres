@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "040d8ef5-b0f1-49b6-8d11-c33653f58794",
+  "name": "End_Room",
+  "symbol": "bg_end_room",
+  "tileColors": "",
+  "filename": "End_Room.png",
+  "width": 20,
+  "height": 55,
+  "imageWidth": 160,
+  "imageHeight": 440
+}

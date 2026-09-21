@@ -1,0 +1,80 @@
+{
+  "_resourceType": "scene",
+  "id": "d0745101-fb21-483d-8955-7f4fbcbd1ce7",
+  "_index": 5,
+  "name": "Throne Room",
+  "backgroundId": "c9d4cb88-43f9-44c3-a0db-e13241c63a42",
+  "tilesetId": "",
+  "width": 59,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f3c+007+0f6+00a+0f6+00a+0f6+00c+0f2+007+0f6+00a+0f6+00a+0f6+00c+0fa+004+0fc+004+0fc+004+0ff+00!0f2+00e+0f2+00e+0f2+00e+0f2+006+0f2+00!0f2+00e+0f2+00e+0f2+00e+0f2+006+0f2+0039+0f2+0039+0f2+0039+0f!003a+0f!003a+0f!003a+0f!003a+0f2+0039+0f2+0039+0f2+0039+0f2+0039+0f3c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 64,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 39
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 1,
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "075c1696-4146-4d0a-94a1-30594082bb2f"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "79de506a-8e7e-4a5f-a498-aaff9782f879",
+        "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
+      },
+      "id": "a497dbe9-efb9-41fe-8d00-69772cc6f19f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "33d5ff77-e053-4d73-b631-6ad7632eba0a"
+    },
+    {
+      "command": "EVENT_CAMERA_LOCK",
+      "args": {
+        "speed": 1,
+        "axis": [
+          "x",
+          "y"
+        ],
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "cda23f3a-3a50-40c2-a497-6f5295df5b85"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dc34990c-5149-4821-8dcf-dd5ddfc116b4",
+  "autoFadeEventCollapse": true
+}

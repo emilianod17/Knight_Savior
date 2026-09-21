@@ -85,6 +85,11 @@
       "id": "e1240fdd-f47c-4cee-a700-a1db7e3a947d__L0",
       "name": "Local 1",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "1cf7683d-6bb0-44c2-a8be-5c56b6e3df0f__L5",
+      "name": "spokenTo",
+      "symbol": "var_spokento"
     }
   ],
   "constants": []

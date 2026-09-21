@@ -1,72 +1,114 @@
 {
   "_resourceType": "actor",
-  "id": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
-  "_index": 3,
-  "symbol": "actor_3",
-  "prefabId": "",
+  "id": "1cf7683d-6bb0-44c2-a8be-5c56b6e3df0f",
   "name": "",
-  "coordinateType": "tiles",
-  "x": 3,
-  "y": 24,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
-  "paletteId": "",
+  "spriteSheetId": "e6ecaf48-d3a0-4ff1-ad45-b731d427a861",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
+  "_index": 4,
+  "symbol": "actor_46",
+  "coordinateType": "tiles",
+  "x": 13,
+  "y": 7,
   "script": [
     {
-      "id": "137799a4-c0db-46dd-91c9-36c0e5386e3d",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Have you seen my\ncat anywhere?"
-      }
-    },
-    {
-      "id": "ef31c786-4d05-4ec4-9828-0b20bea82a50",
       "command": "EVENT_IF",
       "args": {
-        "variable": "0",
-        "__collapseElse": true,
         "condition": {
-          "type": "variable",
-          "value": "0"
-        }
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L5"
+          }
+        },
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
-            "id": "a36892fc-7718-4107-b5b5-07b6c5eea254",
+            "id": "16621d5c-a9ee-493c-9f4b-239d0ef45ee9",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "He's by the house?\nThank you!"
+              "text": [
+                "Glad to see you\nmade it here\nsafely.",
+                "Just up ahead is\nthe Necromancer's\ndungeon...",
+                "I'll stay behind\nand patrol the\narea."
+              ],
+              "__section": "text"
             }
           },
           {
-            "id": "d63037fd-1207-4d62-a104-170f4c817eeb",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "4",
+              "variable": "L5",
               "value": {
                 "type": "true"
               }
-            }
+            },
+            "id": "6f71b392-3db3-4327-96fd-d1b94da13253"
           }
         ],
-        "false": []
-      }
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "L5"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Go on, save the\nPrincess!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "8a8a8080-9ebb-4747-b075-bd21ff94d41c"
+                }
+              ],
+              "false": []
+            },
+            "id": "cea2e3c5-a000-47be-8989-1dba84a257a3"
+          }
+        ]
+      },
+      "id": "76f8aacb-5ad0-47b4-84f6-86ee35e048f9"
     }
   ],
   "startScript": [],
   "updateScript": [
     {
-      "id": "48bedfa4-449b-4fe8-88bc-350126dced46",
+      "id": "ecc90e0b-54b1-47ff-9b43-c18b291922b8",
       "command": "EVENT_WAIT",
       "args": {
         "time": {
@@ -81,7 +123,7 @@
       }
     },
     {
-      "id": "70d26287-78a2-48b3-a436-d754fc78bc38",
+      "id": "2b011c01-1d2c-41a6-b7db-7ee8e50a6094",
       "command": "EVENT_VARIABLE_MATH",
       "args": {
         "vectorX": "T0",
@@ -90,20 +132,20 @@
         "vectorY": "T0",
         "value": "1",
         "minValue": "0",
-        "maxValue": 5,
-        "__collapse": true
+        "maxValue": 3,
+        "__collapse": false
       }
     },
     {
-      "id": "979a1b93-f205-4ff0-b585-cf5a44f3bcde",
+      "id": "fed60fbb-a868-436b-bedf-db9138c36a25",
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "T0",
-        "choices": 4,
+        "choices": 2,
         "__collapseCase0": false,
         "value0": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "__collapseCase1": false,
         "value1": {
@@ -113,12 +155,12 @@
         "__collapseCase2": false,
         "value2": {
           "type": "number",
-          "value": 3
+          "value": 1
         },
         "__collapseCase3": false,
         "value3": {
           "type": "number",
-          "value": 4
+          "value": 1
         },
         "__collapseCase4": false,
         "value4": {
@@ -181,12 +223,12 @@
           "value": 16
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true0": [
           {
-            "id": "f1677c4e-7efb-4e0e-a2fe-e28fedaaf6ac",
+            "id": "ab2dbceb-1dc6-45b2-b766-671ec102985d",
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
@@ -196,7 +238,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 2
+                "value": 1
               },
               "useCollisions": true,
               "verticalFirst": false,
@@ -210,7 +252,7 @@
         ],
         "true1": [
           {
-            "id": "4925fc62-8296-46ca-b8de-2d7ef480b28a",
+            "id": "f4d582e7-8627-4aef-ac3d-a4ac39c6c8e4",
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
@@ -220,7 +262,7 @@
               },
               "y": {
                 "type": "number",
-                "value": -2
+                "value": -1
               },
               "useCollisions": true,
               "verticalFirst": false,
@@ -234,13 +276,13 @@
         ],
         "true2": [
           {
-            "id": "d71c5bee-b300-4cbc-a356-5de6b64b90a1",
+            "id": "e2fcb5d4-9281-4e0b-8ceb-7369b96493ac",
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": -2
+                "value": -1
               },
               "y": {
                 "type": "number",
@@ -258,13 +300,13 @@
         ],
         "true3": [
           {
-            "id": "6e32a809-36f7-49c5-b8b7-170f0a5b0478",
+            "id": "e4f6863d-5c5a-4e39-8ce3-c8a6f35493e3",
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 1
               },
               "y": {
                 "type": "number",
@@ -294,7 +336,7 @@
         "true15": [],
         "false": [
           {
-            "id": "9450deb8-8f2d-40da-9d7c-a1fe125c8bb8",
+            "id": "ad0d76fb-2b18-4123-becd-a7f19411d151",
             "command": "EVENT_WAIT",
             "args": {
               "time": {

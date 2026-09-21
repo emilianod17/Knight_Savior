@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b61a1535-6246-4249-9f16-8b600eee55c9",
+  "name": "Room_Template copy",
+  "symbol": "bg_room_template_copy",
+  "tileColors": "",
+  "filename": "Room_Template copy.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
