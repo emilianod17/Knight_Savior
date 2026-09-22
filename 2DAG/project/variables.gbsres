@@ -72,11 +72,6 @@
       "symbol": "var_spokentoking"
     },
     {
-      "id": "14",
-      "name": "spokenToPrisoner",
-      "symbol": "var_spokentoprisoner"
-    },
-    {
       "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -102,9 +97,9 @@
       "symbol": "var_local_3"
     },
     {
-      "id": "15",
-      "name": "grabKey1",
-      "symbol": "var_grabkey1"
+      "id": "14",
+      "name": "spokenToPrisoner",
+      "symbol": "var_spokentoprisoner"
     }
   ],
   "constants": []

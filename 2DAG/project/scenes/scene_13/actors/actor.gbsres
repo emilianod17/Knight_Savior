@@ -38,9 +38,7 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__comment": true,
-        "__collapse": false
+        "closeDelayFrames": 30
       },
       "id": "c588a973-6e24-4dcc-ae77-24e4b6302ee5"
     },
@@ -50,14 +48,6 @@
         "actorId": "$self$"
       },
       "id": "feaf3719-28e9-43a4-9a2a-a4221e5d7b4c"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "e34baddd-1be0-467d-882d-5207b48ca807",
-        "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
-      },
-      "id": "4011a332-dea0-4217-9b2a-6de192d75ffa"
     }
   ],
   "startScript": [],

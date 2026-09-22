@@ -18,65 +18,45 @@
   "y": 32,
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_CAMERA_MOVE_TO",
       "args": {
-        "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "13"
-          }
+        "x": {
+          "type": "number",
+          "value": 39
         },
-        "__collapseElse": false
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 1,
+        "__collapse": true,
+        "__comment": false
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_CAMERA_MOVE_TO",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 39
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "speed": 1,
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "075c1696-4146-4d0a-94a1-30594082bb2f"
-          },
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "79de506a-8e7e-4a5f-a498-aaff9782f879",
-              "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442",
-              "__collapse": true
-            },
-            "id": "a497dbe9-efb9-41fe-8d00-69772cc6f19f"
-          },
-          {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": {
-                "type": "number",
-                "value": 1
-              },
-              "frames": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "33d5ff77-e053-4d73-b631-6ad7632eba0a"
-          }
-        ],
-        "false": []
+      "id": "075c1696-4146-4d0a-94a1-30594082bb2f"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "79de506a-8e7e-4a5f-a498-aaff9782f879",
+        "emoteId": "603fd18d-674c-4360-9f57-5fb4b935b442"
       },
-      "id": "f96227e7-98ea-41fe-b322-48152b034a20"
+      "id": "a497dbe9-efb9-41fe-8d00-69772cc6f19f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "33d5ff77-e053-4d73-b631-6ad7632eba0a"
     },
     {
       "command": "EVENT_CAMERA_LOCK",
