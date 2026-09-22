@@ -100,6 +100,11 @@
       "id": "b228615c-32ec-49cb-b083-8dcfd990a648__L0",
       "name": "Local 0",
       "symbol": "var_local_3"
+    },
+    {
+      "id": "15",
+      "name": "grabKey1",
+      "symbol": "var_grabkey1"
     }
   ],
   "constants": []

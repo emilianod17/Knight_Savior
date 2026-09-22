@@ -11,21 +11,66 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "dd03dade-8612-411c-b8ae-5f3950dc49a5",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "14"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 5
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "4c8d3b41-d964-4d30-bb3d-0aab12e2b8ed"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I should speak to\none of these\nprisoners first."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "588eee37-eb2c-473d-b6bc-0606b66a0b74"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "dd03dade-8612-411c-b8ae-5f3950dc49a5",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "4c8d3b41-d964-4d30-bb3d-0aab12e2b8ed"
+          }
+        ]
+      },
+      "id": "4b8e3978-68f8-421a-b5d4-36c502706dad"
     }
   ],
   "leaveScript": [],

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "cabcc186-4139-4a09-8c13-ba3903af32d2",
+  "name": "Cellar_Cave",
+  "symbol": "bg_cellar_cave",
+  "tileColors": "",
+  "filename": "Cellar_Cave.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
