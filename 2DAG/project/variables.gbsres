@@ -72,6 +72,11 @@
       "symbol": "var_spokentoking"
     },
     {
+      "id": "14",
+      "name": "spokenToPrisoner",
+      "symbol": "var_spokentoprisoner"
+    },
+    {
       "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -95,11 +100,6 @@
       "id": "b228615c-32ec-49cb-b083-8dcfd990a648__L0",
       "name": "Local 0",
       "symbol": "var_local_3"
-    },
-    {
-      "id": "14",
-      "name": "spokenToPrisoner",
-      "symbol": "var_spokentoprisoner"
     }
   ],
   "constants": []
