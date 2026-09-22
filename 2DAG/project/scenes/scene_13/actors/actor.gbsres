@@ -38,7 +38,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__comment": true
       },
       "id": "c588a973-6e24-4dcc-ae77-24e4b6302ee5"
     },

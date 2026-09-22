@@ -1,76 +1,31 @@
 {
   "_resourceType": "trigger",
-  "id": "b228615c-32ec-49cb-b083-8dcfd990a648",
+  "id": "b73d09a1-f787-4ef7-96df-6c47f2a29b5c",
   "name": "",
   "prefabId": "",
-  "x": 9,
-  "y": 39,
-  "symbol": "trigger_13",
+  "x": 0,
+  "y": 5,
+  "symbol": "trigger_11",
   "prefabScriptOverrides": {},
-  "width": 6,
-  "height": 1,
+  "width": 1,
+  "height": 3,
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "14"
-          }
+        "sceneId": "ec2156f9-eaec-49c1-8fff-60c514cbf788",
+        "x": {
+          "type": "number",
+          "value": 31
         },
-        "__collapseElse": false
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "left",
+        "fadeSpeed": "2"
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Maybe I should\nspeak to one of\nthese prisoners."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "684e087b-631f-48e8-a260-9744508d76d7"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "dd03dade-8612-411c-b8ae-5f3950dc49a5",
-              "x": {
-                "type": "number",
-                "value": 9
-              },
-              "y": {
-                "type": "number",
-                "value": 5
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "68c1a2c4-eeff-4c41-8de7-f7698998a67d"
-          }
-        ]
-      },
-      "id": "356ecbad-3add-4742-a96c-c0c0755e3ff2"
+      "id": "90d11c77-9134-42ac-b2a2-59d1d9c1d0d0"
     }
   ],
   "leaveScript": [],
