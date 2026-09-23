@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "aacd8e07-7631-455e-929e-7ff7c22ae91d",
+  "name": "Field_Buffer_Room",
+  "symbol": "bg_field_buffer_room",
+  "tileColors": "",
+  "filename": "Field_Buffer_Room.png",
+  "width": 24,
+  "height": 20,
+  "imageWidth": 192,
+  "imageHeight": 160
+}
