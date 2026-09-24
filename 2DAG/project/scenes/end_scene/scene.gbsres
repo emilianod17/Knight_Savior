@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8c8ce2cc-591b-4efc-82af-2ede84dafa6c",
+  "_index": 16,
+  "name": "End Scene",
+  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 696,
+  "y": 752,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

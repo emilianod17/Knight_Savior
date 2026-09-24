@@ -100,6 +100,36 @@
       "id": "b228615c-32ec-49cb-b083-8dcfd990a648__L0",
       "name": "Local 0",
       "symbol": "var_local_3"
+    },
+    {
+      "id": "15",
+      "name": "obtainApple",
+      "symbol": "var_obtainapple"
+    },
+    {
+      "id": "16",
+      "name": "givenApple",
+      "symbol": "var_givenapple_0"
+    },
+    {
+      "id": "17",
+      "name": "PlayerPosX",
+      "symbol": "var_playerposx"
+    },
+    {
+      "id": "18",
+      "name": "PlayerPosY",
+      "symbol": "var_playerposy"
+    },
+    {
+      "id": "19",
+      "name": "PlayerPos",
+      "symbol": "var_playerpos"
+    },
+    {
+      "id": "20",
+      "name": "playerDir",
+      "symbol": "var_playerdir"
     }
   ],
   "constants": []

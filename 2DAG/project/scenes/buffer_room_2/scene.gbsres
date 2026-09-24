@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00!0f13+00!0f!005+0f6+006+0f!00!0f!005+0f!004+0f!006+0f!00!0f7+004+0f8+00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!0013+0f!0013+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f13+",
+  "collisions": "00!0f13+00!0f!005+0f6+006+0f!00!0f!005+0f!004+0f!006+0f!00!0f8+002+0f9+00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!0013+0f!0013+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f13+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 1176,
@@ -19,5 +19,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dc34990c-5149-4821-8dcf-dd5ddfc116b4"
 }

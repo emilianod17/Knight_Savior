@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0fd137e4-9d0d-48e4-912f-5a1caeeb0c66",
+  "spriteSheetId": "335dbe2b-158f-4ee7-8d80-1ad5fcbb72ca",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -16,7 +16,57 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_38",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "17590fbb-8daa-4c49-8819-5b2dc00762fb"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "player",
+        "vectorX": "17",
+        "vectorY": "18"
+      },
+      "id": "33740ee9-e230-48e6-a461-6c594914e251"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Looks like one of \nthose keys that \nprisoner mentioned",
+          "Maybe I can find\nsome more ahead."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9be64638-99d8-40cc-adc6-73479309a087"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "1e3ff242-f6c3-44ef-b84a-4c49c79f9dd1"
+      },
+      "id": "2e477a27-3aaf-4e75-a696-393ac9167e7b"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
@@ -24,6 +74,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 9,
-  "y": 8,
+  "y": 7,
   "_index": 0
 }

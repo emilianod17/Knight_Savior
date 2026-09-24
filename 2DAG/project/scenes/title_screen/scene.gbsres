@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8dbcb010-ffe2-4299-8775-94e507809448",
+  "_index": 15,
+  "name": "Title Screen",
+  "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 504,
+  "y": 752,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
