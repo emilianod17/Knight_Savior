@@ -130,6 +130,21 @@
       "id": "20",
       "name": "playerDir",
       "symbol": "var_playerdir"
+    },
+    {
+      "id": "21",
+      "name": "key1Found",
+      "symbol": "var_key1found"
+    },
+    {
+      "id": "22",
+      "name": "key2Found",
+      "symbol": "var_key2found"
+    },
+    {
+      "id": "23",
+      "name": "key3Found",
+      "symbol": "var_key3found"
     }
   ],
   "constants": []

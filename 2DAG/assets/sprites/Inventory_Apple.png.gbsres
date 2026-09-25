@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "38d58075-e867-42bc-84dc-3fd3a4a87cff",
-  "name": "Apple",
-  "symbol": "sprite_apple",
+  "id": "f000bbec-b742-4f8c-9f98-ab01118965fb",
+  "name": "Inventory_Apple",
+  "symbol": "sprite_inventory_apple",
   "states": [
     {
-      "id": "fdd7af2c-304b-407f-92b0-418162e08299",
+      "id": "66dee676-daec-449d-a1fd-f90de9267772",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "31a4e7dd-dd07-4eec-880f-aaffbb6c2500",
+          "id": "ab1d5404-13a7-41c5-b6a9-ccd51598ee74",
           "frames": [
             {
-              "id": "417f7ad4-995c-49ac-af86-cfa64c1ef7c4",
+              "id": "3de8ffdc-16c9-4485-a319-e3d71accd46a",
               "tiles": [
                 {
-                  "id": "f9b9b806-a1fd-4a2d-abba-346799c7d047",
+                  "id": "53933493-0d91-4a79-a0b1-9f74df3d417c",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "dac26e76-396b-45b7-a73b-9183251329c6",
+                  "id": "4f0cc910-25e2-4078-8273-e398563e4be0",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "27bc348f-3c3b-45c8-b677-ef46eb43068f",
+          "id": "cf81112d-6269-448b-80f2-b4b97b0daf7f",
           "frames": [
             {
-              "id": "efd5adc7-9762-4202-91e6-79f3e3490a5c",
+              "id": "23cd0041-c2ce-4c0d-8c68-724ccb3d701a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d70d1db7-0219-4e02-9e7e-38748c036889",
+          "id": "6eb11813-e0b0-45a7-9c20-38da64199ef4",
           "frames": [
             {
-              "id": "5405cfd3-5943-40b1-9a62-64a4d6f8cc8c",
+              "id": "4ed7ea92-f193-47fa-8c39-2468544091e7",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7bdde13c-1ae1-4b54-a500-3cb82b30045d",
+          "id": "a537f300-6193-4e2e-a29f-d0fe5a77096e",
           "frames": [
             {
-              "id": "12ead042-432e-450a-a77f-7191a5dda109",
+              "id": "d8a56206-1b56-4ad4-8eb5-aeb74f6359ac",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fb8618b1-3149-4bdb-854b-9de5dbc76eb0",
+          "id": "20adf4c1-db20-43fc-93a4-2c17a696f126",
           "frames": [
             {
-              "id": "09e26a03-b007-4e59-97ce-29a9046d939c",
+              "id": "db352959-b2d9-4d40-98fc-da727ec6944d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6f2922e2-471f-46f4-92b1-5acee36a95f8",
+          "id": "6fb36f1b-a72e-4d94-8f10-a98d257efc84",
           "frames": [
             {
-              "id": "42c21fd1-e0c8-4f7f-a765-11dabab37408",
+              "id": "c8ff068d-d1e8-43fe-b69d-4c0b30fa0263",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c4ad187b-fbdd-4dbe-8b80-086383c181e5",
+          "id": "fec8b17f-b567-4731-9916-f27697914a92",
           "frames": [
             {
-              "id": "d8ce2c6f-2edd-4752-afce-8712470b9661",
+              "id": "e9421e9d-c9c3-4c6c-bb11-1b7994e09d24",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cf524054-02af-471d-b58e-b8ec8b6a26a2",
+          "id": "d538e6e3-49bd-4387-88f7-9b0666c80aae",
           "frames": [
             {
-              "id": "259e1743-dee8-466f-a311-68e6939b0e8c",
+              "id": "60be0c41-39d9-4bdc-bcb8-788696a2cb1f",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Apple.png",
+  "filename": "Inventory_Apple.png",
   "width": 16,
   "height": 16,
-  "checksum": "7c994d4c3d46a0bfdd16263990dd875450ee8ea5"
+  "checksum": "cc80624a14f27df5c62c6bb55a99d29986ffe35a"
 }

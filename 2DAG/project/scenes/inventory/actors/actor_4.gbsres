@@ -1,0 +1,106 @@
+{
+  "_resourceType": "actor",
+  "id": "5fe193cb-65fa-41cd-a527-4f5e8aea0c50",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "38d58075-e867-42bc-84dc-3fd3a4a87cff",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_52",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "ibh"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "de552092-701e-4210-808f-94770d7cfdf1"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ea1c0857-1bb8-4061-b3b0-fe00613d2b39"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "9fefb3f4-b1e7-49eb-9483-a391995c87c8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "1ca944fa-2be9-43e6-a07f-3b8baf7f306f"
+          }
+        ]
+      },
+      "id": "35031f20-0c95-4d74-871f-788699ebba57"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "4a476b49-039e-4291-bb5d-2a7d54358013"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 15,
+  "_index": 3
+}

@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "38d58075-e867-42bc-84dc-3fd3a4a87cff",
-  "name": "Apple",
-  "symbol": "sprite_apple",
+  "id": "bb53ab58-1583-40c3-92d9-b2f0d72f9695",
+  "name": "Inventory_Key",
+  "symbol": "sprite_inventory_key",
   "states": [
     {
-      "id": "fdd7af2c-304b-407f-92b0-418162e08299",
+      "id": "75a0feaa-730b-4732-81af-d3dbb30344c6",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "31a4e7dd-dd07-4eec-880f-aaffbb6c2500",
+          "id": "2f9ad9f9-8f7f-4f0a-a24a-7eec2a196856",
           "frames": [
             {
-              "id": "417f7ad4-995c-49ac-af86-cfa64c1ef7c4",
+              "id": "de2bdbba-8321-40c9-a3f9-da895c5cb91a",
               "tiles": [
                 {
-                  "id": "f9b9b806-a1fd-4a2d-abba-346799c7d047",
+                  "id": "52d51181-e83e-422e-b987-279e0c773a33",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "dac26e76-396b-45b7-a73b-9183251329c6",
+                  "id": "8723aac4-6204-4f9e-8dff-ff3f1302f408",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "27bc348f-3c3b-45c8-b677-ef46eb43068f",
+          "id": "44af98a6-122c-443e-93bd-fa50e474ada8",
           "frames": [
             {
-              "id": "efd5adc7-9762-4202-91e6-79f3e3490a5c",
+              "id": "bbf19362-6f2b-4808-b7fd-e0f8072ae4e6",
               "tiles": []
             }
           ]
         },
         {
-          "id": "d70d1db7-0219-4e02-9e7e-38748c036889",
+          "id": "83e41e64-97ed-479d-9ce9-f272fc64131e",
           "frames": [
             {
-              "id": "5405cfd3-5943-40b1-9a62-64a4d6f8cc8c",
+              "id": "dc63fb0a-5e58-49ff-874a-5ee4a586be92",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7bdde13c-1ae1-4b54-a500-3cb82b30045d",
+          "id": "39deda3b-09c9-4902-902d-5cbb93ec4031",
           "frames": [
             {
-              "id": "12ead042-432e-450a-a77f-7191a5dda109",
+              "id": "9805add9-ad5f-41e4-9076-c199253f2b02",
               "tiles": []
             }
           ]
         },
         {
-          "id": "fb8618b1-3149-4bdb-854b-9de5dbc76eb0",
+          "id": "9762d6e5-4485-47e7-9451-88aeefa4fa84",
           "frames": [
             {
-              "id": "09e26a03-b007-4e59-97ce-29a9046d939c",
+              "id": "7f57da00-3168-4eb0-830f-3efb854dfbb1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "6f2922e2-471f-46f4-92b1-5acee36a95f8",
+          "id": "420375bf-a4a4-4b12-9aee-ceba1788c55d",
           "frames": [
             {
-              "id": "42c21fd1-e0c8-4f7f-a765-11dabab37408",
+              "id": "4921f5cc-4a78-4b73-b668-7927ca8a814e",
               "tiles": []
             }
           ]
         },
         {
-          "id": "c4ad187b-fbdd-4dbe-8b80-086383c181e5",
+          "id": "10c76984-22df-48bb-91c4-dd99ae00f9d4",
           "frames": [
             {
-              "id": "d8ce2c6f-2edd-4752-afce-8712470b9661",
+              "id": "acc6a95a-6a50-4ff4-b4b4-3096a83a1e15",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cf524054-02af-471d-b58e-b8ec8b6a26a2",
+          "id": "d5614124-109e-4d48-a4b3-1bb83daecadf",
           "frames": [
             {
-              "id": "259e1743-dee8-466f-a311-68e6939b0e8c",
+              "id": "c5cdf493-7a8a-49bd-9fa6-4add08415dd8",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Apple.png",
+  "filename": "Inventory_Key.png",
   "width": 16,
   "height": 16,
-  "checksum": "7c994d4c3d46a0bfdd16263990dd875450ee8ea5"
+  "checksum": "4e2f0f713a6b4c851d02ffe4a8df644c8662bf54"
 }

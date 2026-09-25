@@ -43,13 +43,37 @@
       "id": "eaf44973-4428-490a-a843-b4d078dd27d1"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "15"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "2f98d813-865c-48c0-b125-9ba5c831b4dd"
+          }
+        ],
+        "false": []
+      },
+      "id": "a8ba6384-d2ba-4cc6-b177-fa14cec8943a"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 7,
-  "y": 12,
-  "_index": 1
+  "y": 13,
+  "_index": 0
 }

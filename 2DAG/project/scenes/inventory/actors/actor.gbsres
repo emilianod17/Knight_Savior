@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "768166d3-b777-48a5-a9a2-7a22babd1262",
+  "id": "508ec83f-4970-4761-8146-1c9246874989",
   "name": "",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "335dbe2b-158f-4ee7-8d80-1ad5fcbb72ca",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,40 +15,13 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_38",
+  "symbol": "actor_54",
   "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "21",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "5a59446d-6bf1-4c3c-9a78-2d0401e3e0a4"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "17590fbb-8daa-4c49-8819-5b2dc00762fb"
-    },
-    {
-      "command": "EVENT_ACTOR_GET_POSITION",
-      "args": {
-        "actorId": "player",
-        "vectorX": "17",
-        "vectorY": "18"
-      },
-      "id": "33740ee9-e230-48e6-a461-6c594914e251"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Looks like one of \nthose keys that \nprisoner mentioned",
-          "Maybe I can find\nsome more ahead."
+          "ibh"
         ],
         "__section": "text",
         "avatarId": "",
@@ -67,47 +40,68 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "9be64638-99d8-40cc-adc6-73479309a087"
-    },
-    {
-      "command": "EVENT_ACTOR_ACTIVATE",
-      "args": {
-        "actorId": "1e3ff242-f6c3-44ef-b84a-4c49c79f9dd1"
-      },
-      "id": "2e477a27-3aaf-4e75-a696-393ac9167e7b"
+      "id": "d3578d46-4ab0-43c2-8e0d-6f050383b047"
     }
   ],
   "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "fd9c6697-bb0d-47bd-b0db-15b51acbbcbd"
+    },
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "variable",
-          "value": "21"
+          "value": "22"
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "520ab789-3a12-4453-98dc-c5100c5ef7a9"
+          }
+        ],
+        "false": [
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
             },
-            "id": "d8a73c74-3cf4-4f57-8405-c8132b5abee6"
+            "id": "de77ac8c-43db-4b65-ad54-fd393adafa61"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "e66b0e33-b0cc-4a72-8876-d99b53d8ae56"
+      "id": "8d4b06d3-b9d5-45dc-8681-cc707d085bd5"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "d72a7500-024d-4cd9-bef5-71ef953bcc4e"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 9,
-  "y": 7,
+  "y": 9,
   "_index": 0
 }
