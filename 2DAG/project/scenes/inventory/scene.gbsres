@@ -57,7 +57,8 @@
                 "walls"
               ],
               "lockDirection": [],
-              "moveType": "horizontal"
+              "moveType": "horizontal",
+              "__comment": false
             },
             "id": "c4d04bd8-8ecc-4fe7-9687-0a6460f07369"
           },

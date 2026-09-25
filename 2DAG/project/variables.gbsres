@@ -145,6 +145,11 @@
       "id": "23",
       "name": "key3Found",
       "symbol": "var_key3found"
+    },
+    {
+      "id": "24",
+      "name": "appleQuestComplete",
+      "symbol": "var_applequestcomplete"
     }
   ],
   "constants": []

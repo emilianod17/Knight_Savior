@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "spriteSheetId": "dc34990c-5149-4821-8dcf-dd5ddfc116b4",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -21,7 +21,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "have apple?"
+          "That Necromancer\nis making me stay\nhere to guard...",
+          "But I'm starving.\nI just want\nsomething to eat."
         ],
         "__section": "text",
         "avatarId": "",
@@ -48,7 +49,7 @@
         "variable": "16",
         "items": 2,
         "option1": "Give apple",
-        "option2": "back",
+        "option2": "Back",
         "option3": "",
         "option4": "",
         "option5": "",
@@ -76,7 +77,7 @@
             "value": "15"
           }
         },
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": false
       },
       "children": {
@@ -85,7 +86,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "thanks"
+                "Thank you, screw\nthat Necromancer.",
+                "You know what...",
+                "Take this key,it's\nnot my problem \nanymore."
               ],
               "__section": "text",
               "avatarId": "",
@@ -107,9 +110,53 @@
             "id": "9663430c-c452-44df-bc93-2d3eea28fb1c"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "da926726-bbee-4e81-8455-75daa50eeba5"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "47f52308-264c-4d1e-8cae-10021569c305"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__collapse": true,
+              "__comment": false
             },
             "id": "928a40c3-3e97-4e85-93a6-0596cbad4c18"
           },
@@ -119,9 +166,32 @@
               "variable": "15",
               "value": {
                 "type": "false"
-              }
+              },
+              "__collapse": true
             },
             "id": "82053d4d-405b-4e1e-a615-c1a8f78aad90"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "23",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "cdc4071c-3e2c-491e-9e1b-54c33dad49ff"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "24",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "01d3cb64-cde4-430e-a686-bf9caa913fa0"
           }
         ],
         "false": [
@@ -129,7 +199,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "bring apple"
+                "If you find any\nfood, I'll be here\njust starving."
               ],
               "__section": "text",
               "avatarId": "",
@@ -155,7 +225,41 @@
       "id": "a89c8f6a-45e3-448f-a6a6-f76bbd90052d"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "eab9b748-2f28-47bd-b524-5d40c3b23c4c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "24"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "45c2b29d-4349-473c-944e-737a3857d213"
+          }
+        ],
+        "false": []
+      },
+      "id": "1b4f185c-51ee-43ed-946e-07e5c6848ba6"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

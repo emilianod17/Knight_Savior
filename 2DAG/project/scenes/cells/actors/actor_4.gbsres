@@ -19,7 +19,7 @@
   "symbol": "actor_36",
   "coordinateType": "tiles",
   "x": 1,
-  "y": 32,
+  "y": 31,
   "script": [
     {
       "id": "405c28aa-b3ca-48cf-a518-33f2846227a0",
