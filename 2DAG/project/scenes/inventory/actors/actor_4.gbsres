@@ -21,7 +21,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "ibh"
+          "A delicious and\nsavory apple...",
+          "Appetizing enough\nto help get rid of\none's hunger."
         ],
         "__section": "text",
         "avatarId": "",

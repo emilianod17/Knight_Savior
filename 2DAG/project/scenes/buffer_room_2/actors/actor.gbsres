@@ -112,6 +112,16 @@
               "actorId": "$self$"
             },
             "id": "928a40c3-3e97-4e85-93a6-0596cbad4c18"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "15",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "82053d4d-405b-4e1e-a615-c1a8f78aad90"
           }
         ],
         "false": [

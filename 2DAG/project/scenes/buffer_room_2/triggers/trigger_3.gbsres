@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "e29eb042-ae71-42d2-848d-091587ef3ec7",
+  "id": "e6d71291-a40b-4db1-8364-7d004a148b92",
   "name": "",
   "prefabId": "",
-  "x": 0,
-  "y": 0,
-  "symbol": "trigger_27",
+  "x": 2,
+  "y": 4,
+  "symbol": "trigger_30",
   "prefabScriptOverrides": {},
-  "width": 24,
-  "height": 20,
+  "width": 17,
+  "height": 13,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -18,7 +18,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -40,7 +40,7 @@
                     "vectorX": "17",
                     "vectorY": "18"
                   },
-                  "id": "cb763535-55b9-4220-9e6f-50775b2e2fe7"
+                  "id": "882abe4c-c9ed-462d-9dc3-89e31ce974a6"
                 },
                 {
                   "command": "EVENT_ACTOR_GET_DIRECTION",
@@ -48,12 +48,12 @@
                     "actorId": "$self$",
                     "direction": "20"
                   },
-                  "id": "52285102-0bab-4796-b6dc-88216eba2b2c"
+                  "id": "0fb28284-c7cc-4764-848e-6e778522733a"
                 },
                 {
                   "command": "EVENT_SCENE_PUSH_STATE",
                   "args": {},
-                  "id": "bb4c599d-cbff-45d5-b9a8-19414ec2cd36"
+                  "id": "2ec6c132-93a6-43af-940c-bc5ac83b28fa"
                 },
                 {
                   "command": "EVENT_SWITCH_SCENE",
@@ -70,15 +70,15 @@
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "c9ee617c-1bef-4f8a-baf4-45f299846cdf"
+                  "id": "25cf5349-86a9-4630-b609-481807bcd4e9"
                 }
               ]
             },
-            "id": "833d2987-599a-4d69-a2ef-ffb60f368fc8"
+            "id": "0de03a0d-5c86-4b61-abc3-5da54705928d"
           }
         ]
       },
-      "id": "be9f7ef6-6f3c-4c82-83bb-d1893d9f58ee"
+      "id": "caa3e811-6ab4-4778-a984-b5babd74fe59"
     }
   ],
   "leaveScript": [],
