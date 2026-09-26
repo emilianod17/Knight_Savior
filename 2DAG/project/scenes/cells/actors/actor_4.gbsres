@@ -27,9 +27,79 @@
       "args": {
         "continue": false
       }
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "25",
+        "vectorY": "26"
+      },
+      "id": "75c6988e-fe9a-40f8-b603-5b41a2a7c46c"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "expression",
+          "value": "$25$ == 0 && $26$ == 0"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "25",
+              "operation": "set",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 1,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "0b4f488c-282a-4541-9a48-6e94d9655616"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "26",
+              "operation": "set",
+              "other": "val",
+              "vectorY": "L0",
+              "value": 31,
+              "minValue": "0",
+              "maxValue": "32767",
+              "clamp": false
+            },
+            "id": "1ccc7c0a-925b-49b5-9b29-10512100d2fb"
+          }
+        ],
+        "false": []
+      },
+      "id": "833458dd-7c6d-47f9-beed-ab827c3fd1f3"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "25"
+        },
+        "y": {
+          "type": "variable",
+          "value": "26"
+        }
+      },
+      "id": "89644eb3-ae32-4a6f-8bfe-40844134f75a"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

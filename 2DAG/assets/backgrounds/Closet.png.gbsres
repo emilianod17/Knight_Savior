@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1496ea18-0b4a-4064-b7f4-4f40f789afe4",
+  "name": "Closet",
+  "symbol": "bg_closet",
+  "tileColors": "",
+  "filename": "Closet.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

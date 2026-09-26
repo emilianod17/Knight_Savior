@@ -27,7 +27,7 @@
             "value": "13"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -47,7 +47,8 @@
                 "Thank you for\ncoming Apollo.",
                 "I fear something\nterrible has \nhappened...",
                 "Princess Nadia\nwas taken by that\nawful Necromancer!",
-                "Please, go to his\ndungeon and save\nthe Princess."
+                "In the closet I\nleft a key, go on\nand take it.",
+                "Now please, go to \nhis dungeon and \nsave the Princess."
               ],
               "__section": "text",
               "avatarId": "",
@@ -65,7 +66,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "902536db-9a60-47af-ba5f-7b92c245c079"
           },

@@ -18,6 +18,14 @@
   "symbol": "actor_47",
   "script": [
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+      },
+      "id": "b20c9156-ba6b-4389-910b-02e9da723da2"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

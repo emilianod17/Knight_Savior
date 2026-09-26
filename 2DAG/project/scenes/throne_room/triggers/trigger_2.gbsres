@@ -1,84 +1,101 @@
 {
   "_resourceType": "trigger",
-  "id": "2da8f0a7-39ee-4d37-8330-df8e0b659655",
+  "id": "aa621031-cc8c-4374-aab1-41829fed4661",
   "name": "",
   "prefabId": "",
-  "x": 1,
+  "x": 26,
   "y": 4,
-  "symbol": "trigger_32",
+  "symbol": "trigger_36",
   "prefabScriptOverrides": {},
-  "width": 57,
-  "height": 13,
+  "width": 2,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_IF",
       "args": {
-        "input": [
-          "b"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "13"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_INPUT_SCRIPT",
+            "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "input": [
-                "b"
+              "actorId": "player",
+              "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+            },
+            "id": "274bce9b-4409-4448-92f6-94ef792221cd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I should speak to\nthe king first."
               ],
-              "override": false,
-              "__scriptTabs": "press"
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ebe56679-08b4-41d5-ad14-a33d60b0337d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "13"
+              },
+              "__collapseElse": true
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_ACTOR_GET_POSITION",
-                  "args": {
-                    "actorId": "$self$",
-                    "vectorX": "17",
-                    "vectorY": "18"
-                  },
-                  "id": "220b6c83-0c26-458a-9327-3f2a5117b5e9"
-                },
-                {
-                  "command": "EVENT_ACTOR_GET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
-                    "direction": "20"
-                  },
-                  "id": "b55409ff-7c1e-4cce-a22b-70e6d07cf7c7"
-                },
-                {
-                  "command": "EVENT_SCENE_PUSH_STATE",
-                  "args": {},
-                  "id": "113c972d-1335-4db3-bcc2-10b3c45f8e9d"
-                },
-                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "c95a498b-c3f5-4e47-b5dd-b41900d6e2ad",
+                    "sceneId": "e2bdae7c-efbc-41ab-a095-1f9428fdfc31",
                     "x": {
                       "type": "number",
-                      "value": 7
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 6
+                      "value": 15
                     },
-                    "direction": "",
+                    "direction": "up",
                     "fadeSpeed": "2"
                   },
-                  "id": "524956c2-a227-4c8b-8901-b31e208f6975"
+                  "id": "b1d17929-3969-46a7-8484-fcc16c6c68ed"
                 }
-              ]
+              ],
+              "false": []
             },
-            "id": "af16dd5d-1bab-44a9-ab16-f22e52a5383c"
+            "id": "687857b0-f64b-494c-9cef-bd57dfb10785"
           }
         ]
       },
-      "id": "0355a092-e991-42d3-9269-4b6d318ba85b"
+      "id": "1f3ca3a5-3a97-402e-a7f8-dd458c74530f"
     }
   ],
   "leaveScript": [],

@@ -3,7 +3,7 @@
   "id": "8dbcb010-ffe2-4299-8775-94e507809448",
   "_index": 15,
   "name": "Title Screen",
-  "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
+  "backgroundId": "288e3f9b-9389-4698-bab7-6bb64d9d3a47",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -14,10 +14,19 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 504,
-  "y": 752,
-  "script": [],
+  "x": 1128,
+  "y": 1024,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8ec931b7-7e69-4789-a613-b55b11ba5f12"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dc34990c-5149-4821-8dcf-dd5ddfc116b4"
 }

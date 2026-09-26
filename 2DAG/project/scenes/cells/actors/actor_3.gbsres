@@ -31,7 +31,7 @@
       "args": {
         "text": [
           "Sometimes, the\nguards head behind\nthat pillar...",
-          "And I hear a\nscrapping sound\nshortly after...",
+          "And I hear a\nscraping sound\nshortly after...",
           "Might be worth\nchecking out."
         ],
         "__section": "text",
@@ -50,7 +50,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "7db58666-5a23-4467-a7d0-b9d04d52184d"
     },

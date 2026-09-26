@@ -14,9 +14,30 @@
   "collisions": "0f3c+007+0f6+00a+0f6+00a+0f6+00c+0f2+007+0f6+00a+0f6+00a+0f6+00c+0fa+004+0fc+004+0fc+004+0ff+00!0f2+00e+0f2+00e+0f2+00e+0f2+006+0f2+00!0f2+00e+0f2+00e+0f2+00e+0f2+006+0f2+0039+0f2+0039+0f2+0039+0f!003a+0f!003a+0f!003a+0f!003a+0f2+0039+0f2+0039+0f2+0039+0f2+0039+0f3c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 272,
-  "y": 30,
+  "x": 304,
+  "y": 224,
   "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "2a7e3245-1fe6-4bbc-9e3c-31670a63f384"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -27,7 +48,9 @@
             "value": "13"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true,
+        "__comment": false
       },
       "children": {
         "true": [
@@ -85,7 +108,7 @@
           "x",
           "y"
         ],
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "id": "cda23f3a-3a50-40c2-a497-6f5295df5b85"

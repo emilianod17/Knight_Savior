@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "024c9d9c-dbf9-4bb6-a31f-17c8147b5366",
+  "id": "1b094bb3-661d-40c1-9a8b-c2d7a56299ad",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "38d58075-e867-42bc-84dc-3fd3a4a87cff",
+  "spriteSheetId": "335dbe2b-158f-4ee7-8d80-1ad5fcbb72ca",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,88 +15,15 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_49",
-  "script": [
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "player",
-        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
-      },
-      "id": "2614708f-b49c-456e-a0f4-38764d7db254"
-    },
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "0fef89bb-4f40-4ec9-b943-a7892b476ae6"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "15",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "eaf44973-4428-490a-a843-b4d078dd27d1"
-    }
-  ],
-  "startScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "15"
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "2f98d813-865c-48c0-b125-9ba5c831b4dd"
-          }
-        ],
-        "false": []
-      },
-      "id": "a8ba6384-d2ba-4cc6-b177-fa14cec8943a"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "24"
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "af827d5f-5ef6-4fc8-9de5-bc0c2d77b137"
-          }
-        ],
-        "false": []
-      },
-      "id": "acfed696-9bd3-48c7-8393-b00d3ba01e74"
-    }
-  ],
+  "symbol": "actor_56",
+  "script": [],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 7,
-  "y": 11,
+  "x": 0,
+  "y": 0,
   "_index": 1
 }

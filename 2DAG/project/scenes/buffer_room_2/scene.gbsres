@@ -14,9 +14,17 @@
   "collisions": "00!0f13+00!0f!005+0f6+006+0f!00!0f!005+0f!004+0f!006+0f!00!0f8+002+0f9+00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!0013+0f!0013+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f!0011+0f!00!0f13+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 1176,
-  "y": 568,
-  "script": [],
+  "x": 1184,
+  "y": 808,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "1b094bb3-661d-40c1-9a8b-c2d7a56299ad"
+      },
+      "id": "57fb92bf-c27a-4f29-8f26-6f690555dc91"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

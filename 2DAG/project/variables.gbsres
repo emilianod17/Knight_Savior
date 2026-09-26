@@ -150,6 +150,31 @@
       "id": "24",
       "name": "appleQuestComplete",
       "symbol": "var_applequestcomplete"
+    },
+    {
+      "id": "25",
+      "name": "boxX",
+      "symbol": "var_boxx"
+    },
+    {
+      "id": "26",
+      "name": "boxY",
+      "symbol": "var_boxy"
+    },
+    {
+      "id": "27",
+      "name": "keysPair3",
+      "symbol": "var_keyspair3"
+    },
+    {
+      "id": "28",
+      "name": "playerKeys",
+      "symbol": "var_playerkeys"
+    },
+    {
+      "id": "142c1879-7965-4193-b865-cad04368c777__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
     }
   ],
   "constants": []
