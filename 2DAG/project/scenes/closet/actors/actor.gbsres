@@ -84,9 +84,24 @@
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3e0e3f81-2659-4d0c-9d78-de2ffbb4cfb9"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 102,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "b3a76287-26f5-4360-8946-027c12f3d19e"
     },
     {
       "command": "EVENT_VARIABLE_MATH",
@@ -174,7 +189,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -182,7 +197,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press \"X\" to open\nyour inventory."
+                "Press \"X/B\" to \nopen your \ninventory."
               ],
               "__section": "text",
               "avatarId": "",

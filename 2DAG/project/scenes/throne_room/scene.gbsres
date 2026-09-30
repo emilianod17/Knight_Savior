@@ -18,27 +18,6 @@
   "y": 224,
   "script": [
     {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "__section": "movement",
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 6
-        },
-        "y": {
-          "type": "number",
-          "value": 10
-        },
-        "collideWith": [
-          "walls"
-        ],
-        "lockDirection": [],
-        "moveType": "horizontal"
-      },
-      "id": "2a7e3245-1fe6-4bbc-9e3c-31670a63f384"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -49,11 +28,32 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "2a7e3245-1fe6-4bbc-9e3c-31670a63f384"
+          },
           {
             "command": "EVENT_CAMERA_MOVE_TO",
             "args": {

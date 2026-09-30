@@ -48,7 +48,7 @@
         "condition": {
           "type": "not",
           "value": {
-            "type": "and",
+            "type": "or",
             "valueA": {
               "type": "variable",
               "value": "21"
@@ -67,7 +67,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press \"X\" to open\nyour inventory."
+                "Press \"X/B\" to \nopen your \ninventory."
               ],
               "__section": "text",
               "avatarId": "",
@@ -147,7 +147,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 9,
-  "y": 9,
-  "_index": 2
+  "x": 7,
+  "y": 13,
+  "_index": 0
 }

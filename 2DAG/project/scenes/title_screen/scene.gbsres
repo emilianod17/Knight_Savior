@@ -12,7 +12,7 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 2,
   "symbol": "scene_16",
   "x": 1128,
   "y": 1024,
@@ -23,6 +23,26 @@
         "actorId": "$self$"
       },
       "id": "8ec931b7-7e69-4789-a613-b55b11ba5f12"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__comment": true
+      },
+      "id": "f1d7cbbc-fcfa-438c-bad0-5deb0c50e26d"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 18,
+        "speed": 2,
+        "__comment": true
+      },
+      "id": "ab75f338-82a8-491f-9f7f-88add4cb6b29"
     }
   ],
   "playerHit1Script": [],

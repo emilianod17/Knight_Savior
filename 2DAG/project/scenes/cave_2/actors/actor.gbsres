@@ -93,7 +93,7 @@
         "condition": {
           "type": "not",
           "value": {
-            "type": "and",
+            "type": "or",
             "valueA": {
               "type": "variable",
               "value": "21"
@@ -113,7 +113,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Press \"X\" to open\nyour inventory."
+                "Press \"X/B\" to \nopen your \ninventory."
               ],
               "__section": "text",
               "avatarId": "",

@@ -14,6 +14,33 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
+          "type": "variable",
+          "value": "22"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "69bcfd4c-ec45-4ccf-8f01-b6f31888b6f4"
+          }
+        ],
+        "false": []
+      },
+      "id": "aa35fda7-05e2-48e6-bd68-7ff61fc0c379"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
           "type": "not",
           "value": {
             "type": "variable",

@@ -21,7 +21,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "ibh"
+          "A key that was\nstashed away in\nthe king's closet."
         ],
         "__section": "text",
         "avatarId": "",

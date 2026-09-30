@@ -3,7 +3,7 @@
   "id": "8c8ce2cc-591b-4efc-82af-2ede84dafa6c",
   "_index": 16,
   "name": "End Scene",
-  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "backgroundId": "efb65c8d-ffae-44dd-8874-e39e4a26393b",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,12 +12,39 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 2,
   "symbol": "scene_17",
   "x": 952,
   "y": 1024,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "4576c46e-f451-4748-bb92-9679f19dd19f"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0
+      },
+      "id": "bf6c8332-1876-4145-b308-a1909e9be13b"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 18,
+        "speed": 2
+      },
+      "id": "5008e01a-4641-4a78-8e07-1d6eebb90611"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dc34990c-5149-4821-8dcf-dd5ddfc116b4"
 }

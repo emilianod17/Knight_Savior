@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "efb65c8d-ffae-44dd-8874-e39e4a26393b",
+  "name": "End_Screen",
+  "symbol": "bg_end_screen",
+  "tileColors": "",
+  "filename": "End_Screen.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
