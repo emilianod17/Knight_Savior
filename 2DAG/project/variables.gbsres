@@ -77,31 +77,6 @@
       "symbol": "var_spokentoprisoner"
     },
     {
-      "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
-      "id": "7ee7bc2b-602b-4747-a640-289f01b84a84__L0",
-      "name": "Local 1",
-      "symbol": "var_local_1"
-    },
-    {
-      "id": "e1240fdd-f47c-4cee-a700-a1db7e3a947d__L0",
-      "name": "Local 1",
-      "symbol": "var_local_2"
-    },
-    {
-      "id": "1cf7683d-6bb0-44c2-a8be-5c56b6e3df0f__L5",
-      "name": "spokenTo",
-      "symbol": "var_spokento"
-    },
-    {
-      "id": "b228615c-32ec-49cb-b083-8dcfd990a648__L0",
-      "name": "Local 0",
-      "symbol": "var_local_3"
-    },
-    {
       "id": "15",
       "name": "obtainApple",
       "symbol": "var_obtainapple"
@@ -170,6 +145,31 @@
       "id": "28",
       "name": "playerKeys",
       "symbol": "var_playerkeys"
+    },
+    {
+      "id": "19b8e5e1-7236-41f5-9fe1-58c47b87436c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "7ee7bc2b-602b-4747-a640-289f01b84a84__L0",
+      "name": "Local 1",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "e1240fdd-f47c-4cee-a700-a1db7e3a947d__L0",
+      "name": "Local 1",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "1cf7683d-6bb0-44c2-a8be-5c56b6e3df0f__L5",
+      "name": "spokenTo",
+      "symbol": "var_spokento"
+    },
+    {
+      "id": "b228615c-32ec-49cb-b083-8dcfd990a648__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
     },
     {
       "id": "142c1879-7965-4193-b865-cad04368c777__L0",

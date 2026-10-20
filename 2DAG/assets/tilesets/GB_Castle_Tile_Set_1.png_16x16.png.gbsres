@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c78c781e-95bf-4786-a567-9628d54b9e21",
+  "name": "GB_Castle_Tile_Set_1_16x16.png",
+  "symbol": "tileset_gb_castle_tile_set_",
+  "width": 16,
+  "height": 62,
+  "imageWidth": 128,
+  "imageHeight": 496,
+  "filename": "GB_Castle_Tile_Set_1.png_16x16.png"
+}

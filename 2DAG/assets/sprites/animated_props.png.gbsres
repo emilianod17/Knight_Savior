@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "aaddcb39-00a5-4763-ad55-3ef60a177363",
+  "name": "animated_props",
+  "symbol": "sprite_animated_props",
+  "states": [
+    {
+      "id": "fefa84fe-9d21-45eb-8492-6870262af51b",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "da4a6b26-208a-4607-b8a2-9eff1ab78f19",
+          "frames": [
+            {
+              "id": "aea8460d-b482-4f28-b13f-f80bc720b646",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c762c2ef-af3f-42e0-bea9-9c052ac82c5a",
+          "frames": [
+            {
+              "id": "a9e0f689-d704-4a22-a926-bdd2548feadd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "06dc0000-6df6-4c10-a1f1-1a1f7e95597d",
+          "frames": [
+            {
+              "id": "f40a1b03-c328-4d18-8726-6a5962f52f3f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2874d228-7d5f-46e6-b77a-621f5d0c5e00",
+          "frames": [
+            {
+              "id": "0751410b-7579-47b9-a858-4dc123c9623c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c530c4a5-7188-49ec-a125-0a02eb74c9e5",
+          "frames": [
+            {
+              "id": "59c54a02-7f43-42b2-a169-f2b1c463f913",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "061e5473-cb85-4111-a020-4f7c8197bed0",
+          "frames": [
+            {
+              "id": "c2532df0-b3ce-4b42-97b3-b5d01e2242db",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "87f905b6-787a-4f3e-92d3-3f0fc3782ad8",
+          "frames": [
+            {
+              "id": "ed454d24-127f-4bad-ac91-3d2d8b0a3055",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "432cf14d-99bc-439a-9429-b9ecede6b1c4",
+          "frames": [
+            {
+              "id": "66e6ed08-f185-4315-8826-4987c1608b40",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "animated_props.png",
+  "width": 176,
+  "height": 128,
+  "checksum": "2d139af72b1e5dae11dbcb5051e5d0075d3f5a90"
+}
